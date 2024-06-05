@@ -61,3 +61,7 @@ ul, .navbar-nav a:hover {
 	top: 0;
 	width: 100%;
 }
+
+.features-icon {
+	margin: 8px;
+}

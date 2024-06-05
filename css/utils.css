@@ -1,22 +1,30 @@
 .vertically-centered {
-	position: absolute;
-	top: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .horizontally-centered {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 0%);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 body {
 	background-color: rgb(35, 35, 35);
 	color: #FFFFFF;
+}
+
+@font-face {
+	font-family: 'BootstrapIcons';
+	src: url('../assets/fonts/bootstrap-icons.woff') format('woff');
+}
+
+.bootstrap-icon {
+	font-family: 'BootstrapIcons';
 }
