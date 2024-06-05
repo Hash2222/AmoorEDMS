@@ -51,7 +51,7 @@ ul, .navbar-nav a:hover {
 	color: #DDDDDD;
 }
 
-#purchase > p {
+.purchase > p {
 	font-size: 20px;
 	margin: 0;
 }
