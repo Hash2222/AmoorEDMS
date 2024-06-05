@@ -32,3 +32,60 @@ html {
 .bootstrap-icon {
 	font-family: 'BootstrapIcons';
 }
+
+.navbar {
+	background-color: rgba(50, 50, 50, 0.3);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(40px);
+	z-index: 1000;
+}
+
+.navbar > div {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+@media (min-width: 992px) {
+	.navbar > div {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+.navbar-supported-content {
+	margin-left: 100px;
+}
+
+@media (max-width: 991px) {
+	.navbar-supported-content {
+		margin-left: -20px !important;
+		margin-bottom: 15px;
+	}
+}
+
+/* This weird selector is for the list items in the ul that is inside the navbar. */
+ul, .navbar-nav li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* This weird selector is for the anchor tags in the ul that is inside the navbar. */
+ul, .navbar-nav a {
+	font-size: 20px;
+}
+
+/* This weird selector is for the anchor tags in the ul that is inside the navbar. */
+ul, .navbar-nav a:hover {
+	color: #DDDDDD;
+}
+
+.purchase > p {
+	font-size: 20px;
+	margin: 0;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
