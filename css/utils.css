@@ -20,6 +20,10 @@ body {
 	color: #FFFFFF;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: 'BootstrapIcons';
 	src: url('../assets/fonts/bootstrap-icons.woff') format('woff');
