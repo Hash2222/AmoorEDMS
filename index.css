@@ -1,7 +1,7 @@
 #navbar {
-	background-color: rgba(50, 50, 50, 0.5);
-	backdrop-filter: blur(45px);
-	-webkit-backdrop-filter: blur(45px);
+	background-color: rgba(50, 50, 50, 0.3);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(40px);
 	z-index: 1000;
 }
 
