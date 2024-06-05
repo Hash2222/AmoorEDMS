@@ -1,7 +1,7 @@
 #navbar {
 	background-color: rgba(55, 55, 55, 0.5);
-	backdrop-filter: blur(70px);
-	-webkit-backdrop-filter: blur(70px);
+	backdrop-filter: blur(45px);
+	-webkit-backdrop-filter: blur(45px);
 }
 
 #navbar > div {
@@ -31,6 +31,7 @@
 @media (max-width: 991px) {
 	#navbarSupportedContent {
 		margin-left: -20px !important;
+		margin-bottom: 15px;
 	}
 }
 

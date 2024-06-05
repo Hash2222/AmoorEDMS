@@ -16,6 +16,7 @@
 	transform: translate(-50%, -50%);
 }
 
-.dark-body {
+body {
 	background-color: rgb(35, 35, 35);
+	color: #FFFFFF;
 }
