@@ -2,6 +2,7 @@
 	background-color: rgba(55, 55, 55, 0.5);
 	backdrop-filter: blur(45px);
 	-webkit-backdrop-filter: blur(45px);
+	z-index: 1000;
 }
 
 #navbar > div {
@@ -64,4 +65,13 @@ ul, .navbar-nav a:hover {
 
 .features-icon {
 	margin: 8px;
+}
+
+.dark-mode-pricing-card {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode-pricing-card .card-header {
+	background-color: #555;
 }
