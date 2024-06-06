@@ -29,15 +29,19 @@ html {
 	src: url('../assets/fonts/bootstrap-icons.woff') format('woff');
 }
 
-.bootstrap-icon {
-	font-family: 'BootstrapIcons';
-}
-
-.navbar {
+.frosted-glass {
 	background-color: rgba(50, 50, 50, 0.3);
 	backdrop-filter: blur(40px);
 	-webkit-backdrop-filter: blur(40px);
 	z-index: 1000;
+}
+
+.bootstrap-icon {
+	font-family: 'BootstrapIcons';
+}
+
+.full-width {
+	width: 100%;
 }
 
 .navbar > div {
@@ -84,10 +88,14 @@ ul, .navbar-nav a:hover {
 	margin: 0;
 }
 
-.sticky {
+.sticky-top {
 	position: fixed;
 	top: 0;
-	width: 100%;
+}
+
+.sticky-bottom {
+	position: fixed;
+	bottom: 0;
 }
 
 .blue-to-cyan-text {
@@ -100,4 +108,28 @@ ul, .navbar-nav a:hover {
 	background: linear-gradient(75deg, #87CEEB, #1E90FF);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.footer-text {
+	margin-left: 20px;
+}
+
+.socials {
+	margin-left: auto;
+	margin-right: 40px;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.social-media-icon {
+	text-decoration: none;
 }
