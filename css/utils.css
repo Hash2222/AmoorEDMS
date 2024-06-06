@@ -31,8 +31,8 @@ html {
 
 .frosted-glass {
 	background-color: rgba(65, 65, 65, 0.3);
-	backdrop-filter: blur(40px);
-	-webkit-backdrop-filter: blur(40px);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 	z-index: 1000;
 }
 
