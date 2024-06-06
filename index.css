@@ -22,3 +22,17 @@
 #pricing li > p {
 	text-wrap: pretty;
 }
+
+#heroCarousel .carousel-item {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 810px) {
+	#heroCarousel .carousel-control-prev {
+		margin-left: -100px;
+	}
+
+	#heroCarousel .carousel-control-next {
+		margin-right: -100px;
+	}
+}
