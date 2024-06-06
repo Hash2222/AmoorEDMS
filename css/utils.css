@@ -116,6 +116,20 @@ ul, .navbar-nav a:hover {
 	-webkit-text-fill-color: transparent;
 }
 
+.blue-to-cyan {
+	background: linear-gradient(75deg,
+		#2164F3 0%,
+		#66B2F9 50%,
+		#AAFFFF 100%);
+}
+
+.sky-to-blue {
+	background: linear-gradient(75deg,
+		#87CEEB 0%,
+		#61B2FB 50%,
+		#1E90FF 100%);
+}
+
 .footer {
 	margin-top: 100vh;
 }
