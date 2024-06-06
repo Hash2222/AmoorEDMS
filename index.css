@@ -18,3 +18,7 @@
 .dark-mode-pricing-card .card-header {
 	background-color: #555;
 }
+
+#pricing li > p {
+	text-wrap: pretty;
+}
