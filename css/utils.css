@@ -99,13 +99,19 @@ ul, .navbar-nav a:hover {
 }
 
 .blue-to-cyan-text {
-	background: linear-gradient(75deg, rgb(33, 100, 243), #AAFFFF);
+	background: linear-gradient(75deg,
+		#2164F3 0%,
+		#66B2F9 50%,
+		#AAFFFF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .sky-to-blue-text {
-	background: linear-gradient(75deg, #87CEEB, #1E90FF);
+	background: linear-gradient(75deg,
+		#87CEEB 0%,
+		#61B2FB 50%,
+		#1E90FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
