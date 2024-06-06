@@ -110,6 +110,10 @@ ul, .navbar-nav a:hover {
 	-webkit-text-fill-color: transparent;
 }
 
+.footer {
+	margin-top: 100vh;
+}
+
 .footer-content {
 	display: flex;
 	flex-direction: row;
