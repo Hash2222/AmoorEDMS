@@ -1,0 +1,42 @@
+.brand-image-anchor {
+	margin-left: 50px;
+}
+
+.right-navbar-button {
+	margin-right: 50px;
+}
+
+.features-icon {
+	margin: 8px;
+}
+
+#featuresToPricingSeparator {
+	margin-top: -80px; margin-bottom: 80px;
+}
+
+.dark-mode-pricing-card {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-mode-pricing-card .card-header {
+	background-color: #555;
+}
+
+#pricing li > p {
+	text-wrap: pretty;
+}
+
+#heroCarousel .carousel-item {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 810px) {
+	#heroCarousel .carousel-control-prev {
+		margin-left: -100px;
+	}
+
+	#heroCarousel .carousel-control-next {
+		margin-right: -100px;
+	}
+}
