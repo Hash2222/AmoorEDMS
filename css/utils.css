@@ -30,6 +30,15 @@ html {
 	src: url('../assets/fonts/bootstrap-icons.woff') format('woff');
 }
 
+@font-face {
+	font-family: 'UbuntuMono';
+	src: url('../assets/fonts/UbuntuMono.ttf') format('truetype');
+}
+
+html, body {
+	font-family: 'UbuntuMono' !important;
+}
+
 .frosted-glass {
 	background-color: rgba(65, 65, 65, 0.3);
 	backdrop-filter: blur(10px);
