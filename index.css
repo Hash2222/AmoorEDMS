@@ -6,6 +6,10 @@
 	margin-right: 50px;
 }
 
+#features .col, .d-flex {
+	gap: 20px;
+}
+
 .features-icon {
 	margin: 8px;
 }
@@ -25,6 +29,10 @@
 
 #pricing li > p {
 	text-wrap: pretty;
+}
+
+#pricing li {
+	width: 100%;
 }
 
 #heroCarousel .carousel-item {

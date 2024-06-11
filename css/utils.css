@@ -93,6 +93,10 @@ ul, .navbar-nav a:hover {
 	color: #DDDDDD;
 }
 
+.purchase {
+	text-wrap: nowrap;
+}
+
 .purchase > p {
 	font-size: 20px;
 	margin: 0;
