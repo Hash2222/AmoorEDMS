@@ -18,6 +18,10 @@
 	margin-top: -80px; margin-bottom: 80px;
 }
 
+#explanationToFeaturesSeparator {
+	margin-top: -80px;
+}
+
 .dark-mode-pricing-card {
 	background-color: #333;
 	color: #fff;
