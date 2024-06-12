@@ -151,3 +151,7 @@ ul, .navbar-nav a:hover {
 .social-media-icon {
 	text-decoration: none;
 }
+
+#langDropdown {
+	background-color: rgba(108, 117, 125, 0.6)
+}
