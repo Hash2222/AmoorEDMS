@@ -134,8 +134,6 @@ ul, .navbar-nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	margin-left: 200px;
-	margin-right: 200px;
 }
 
 .footer-socials {
