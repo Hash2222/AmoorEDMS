@@ -40,9 +40,9 @@ html, body {
 }
 
 .frosted-glass {
-	background-color: rgba(65, 65, 65, 0.3);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
+	background-color: rgba(36, 36, 36, 0.7490196078431373);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	z-index: 1000;
 }
 
@@ -52,6 +52,10 @@ html, body {
 
 .full-width {
 	width: 100%;
+}
+
+.navbar {
+	border-bottom: 1px solid rgba(60, 60, 60, 0.7490196078431373);
 }
 
 .navbar > div {
