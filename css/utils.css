@@ -50,7 +50,6 @@ html, body {
 	left: 0;
 	box-sizing: border-box; /* This includes padding in the width and height calculations */
 }
-
 .carousel-item > .overlay-above-image {
 	top: 50%;
 	left: 50%;
