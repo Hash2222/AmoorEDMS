@@ -33,14 +33,6 @@
 	object-fit: cover !important;
 }
 
-.carousel-control-prev-icon .dark-carousel-arrow {
-	filter: invert(-1);
-}
-
-.carousel-control-next-icon .dark-carousel-arrow {
-	filter: invert(-1);
-}
-
 #features .col, .d-flex {
 	gap: 20px;
 }
@@ -76,14 +68,4 @@
 
 #heroCarousel .carousel-item {
 	margin-bottom: 30px;
-}
-
-@media (min-width: 810px) {
-	#heroCarousel .carousel-control-prev {
-		margin-left: -100px;
-	}
-
-	#heroCarousel .carousel-control-next {
-		margin-right: -100px;
-	}
 }
