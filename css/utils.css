@@ -68,6 +68,10 @@ html, body {
 	padding-right: 35px;
 }
 
+.lang-dropdown {
+	margin-left: 20px;
+}
+
 @media (min-width: 992px) {
 	.navbar > div {
 		padding-left: 100px;
@@ -83,6 +87,11 @@ html, body {
 	.navbar-supported-content {
 		margin-left: -20px !important;
 		margin-bottom: 15px;
+	}
+
+	.lang-dropdown {
+		margin-left: 0px;
+		margin-top: 10px;
 	}
 }
 
