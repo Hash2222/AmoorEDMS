@@ -6,8 +6,12 @@
 	margin-right: 50px;
 }
 
+:root {
+	--scrollbar-width: 15px;
+}
+
 #heroCarousel {
-	width: 100vw !important;
+	width: calc(100vw - var(--scrollbar-width)) !important;
 	height: 100vh !important;
 }
 
